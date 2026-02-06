@@ -120,6 +120,3 @@ Thumbs.db
 # Extension specific
 *.vsixmanifest
 *.vsix
-
-# Testing mode
-/scripts
