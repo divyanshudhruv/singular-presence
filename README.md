@@ -51,3 +51,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🐛 [Report a Bug](https://github.com/divyanshudhruv/singular-presence/issues)
 - 💡 [Feature Request](https://github.com/divyanshudhruv/singular-presence/issues)
+
+## Scripts
+
+For build automation and development workflows, see the [scripts directory](./scripts/README.md).
+
+- 🚀 [Setup Environment](./scripts/setup.cmd)
+- 🔨 [Build Extension](./scripts/build.cmd)
+- 🧪 [Run Tests](./scripts/test.cmd)
+- 🧹 [Clean Build](./scripts/clean.cmd)
+- 📦 [Deploy Extension](./scripts/deploy.cmd)
+- 🚧 [Development Mode](./scripts/dev.cmd)
+- ✅ [Run Tests](./scripts/test.cmd)
+
