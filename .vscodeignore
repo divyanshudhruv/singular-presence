@@ -1,0 +1,66 @@
+# VS Code extension packaging ignore file
+# This file tells VS Code which files and folders to exclude when packaging the extension
+
+# Source files (we only include compiled output)
+src/
+*.ts
+!*.d.ts
+
+# Dependencies
+node_modules/
+
+# Development and build files
+.vscode/
+.git/
+.gitignore
+.yarnrc
+vsc-extension-quickstart.md
+
+# Test files
+**/test/
+**/*.test.ts
+**/*.spec.ts
+
+# Documentation and metadata (not needed in extension package)
+README.md
+CHANGELOG.md
+LICENSE
+CONTRIBUTING.md
+
+# Build artifacts
+out/test/
+**/tsconfig.json
+**/.eslintrc.json
+**/.gitignore
+**/.vscodeignore
+
+# Logs and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Development dependencies
+.eslintcache
+
+# Package manager files
+package-lock.json
+yarn.lock

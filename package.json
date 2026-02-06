@@ -1,0 +1,57 @@
+{
+  "name": "singular-presence",
+  "displayName": "Singular Presence",
+  "description": "Professional auto typing extension for enhanced development workflow",
+  "version": "0.0.1",
+  "publisher": "singular-presence",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divyanshudhruv/singular-presence.git"
+  },
+  "homepage": "https://github.com/divyanshudhruv/singular-presence#readme",
+  "bugs": {
+    "url": "https://github.com/divyanshudhruv/singular-presence/issues"
+  },
+  "keywords": [
+    "auto typing",
+    "automation",
+    "productivity",
+    "typing assistant",
+    "development",
+    "vscode"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "main": "./out/extension.js",
+  
+  "contributes": {
+    "commands": [
+      {
+        "command": "singular-presence.toggle",
+        "title": "Singular Presence: Toggle Auto Typer"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "singular-presence.toggle",
+        "key": "ctrl+alt+t"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "20.x",
+    "typescript": "^5.4.2"
+  }
+}
